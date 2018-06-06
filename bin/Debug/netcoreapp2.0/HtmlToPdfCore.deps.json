@@ -1,0 +1,328 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "d9ed79c07486f0b3c9ae06ffec4051ec0f22e1ad"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "HtmlToPdfCore/1.0.0": {
+        "dependencies": {
+          "DinkToPdfIncludesDependencies": "1.0.8",
+          "Select.Pdf.NetCore": "18.2.0-rc1"
+        },
+        "runtime": {
+          "HtmlToPdfCore.dll": {}
+        }
+      },
+      "DinkToPdfIncludesDependencies/1.0.8": {
+        "runtime": {
+          "lib/netcoreapp2.0/DinkToPdf.dll": {
+            "assemblyVersion": "1.0.8.0",
+            "fileVersion": "1.0.8.0"
+          }
+        }
+      },
+      "Microsoft.Win32.Registry/4.5.0-rc1": {
+        "dependencies": {
+          "System.Memory": "4.5.0-rc1",
+          "System.Security.AccessControl": "4.5.0-rc1",
+          "System.Security.Principal.Windows": "4.5.0-rc1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.6.26426.4"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.6.26426.4"
+          },
+          "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.6.26426.4"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/4.5.0-rc1": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26426.4"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26426.4"
+          }
+        }
+      },
+      "Select.Pdf.NetCore/18.2.0-rc1": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.5.0-rc1",
+          "System.Drawing.Common": "4.5.0-rc1",
+          "System.Security.Cryptography.Pkcs": "4.5.0-rc1",
+          "System.Security.Permissions": "4.5.0-rc1",
+          "System.Security.Principal.Windows": "4.5.0-rc1",
+          "System.Text.Encoding.CodePages": "4.5.0-rc1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Select.Pdf.dll": {
+            "assemblyVersion": "18.2.0.0",
+            "fileVersion": "18.2.0.0"
+          }
+        }
+      },
+      "System.Drawing.Common/4.5.0-rc1": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "4.5.0-rc1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26426.4"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26426.4"
+          },
+          "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26426.4"
+          }
+        }
+      },
+      "System.Memory/4.5.0-rc1": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.0-rc1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.6.26426.4"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.0-rc1": {
+        "runtime": {
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "4.0.4.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "System.Security.AccessControl/4.5.0-rc1": {
+        "dependencies": {
+          "System.Security.Principal.Windows": "4.5.0-rc1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.6.26426.4"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.6.26426.4"
+          }
+        }
+      },
+      "System.Security.Cryptography.Cng/4.4.0": {
+        "runtimeTargets": {
+          "runtime/win/lib/_._": {
+            "rid": "win",
+            "assetType": "runtime"
+          }
+        }
+      },
+      "System.Security.Cryptography.Pkcs/4.5.0-rc1": {
+        "dependencies": {
+          "System.Memory": "4.5.0-rc1",
+          "System.Security.Cryptography.Cng": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.Pkcs.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.26426.4"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.Pkcs.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.26426.4"
+          }
+        }
+      },
+      "System.Security.Permissions/4.5.0-rc1": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.5.0-rc1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Permissions.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.6.26426.4"
+          }
+        }
+      },
+      "System.Security.Principal.Windows/4.5.0-rc1": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.6.26426.4"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.6.26426.4"
+          },
+          "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.6.26426.4"
+          }
+        }
+      },
+      "System.Text.Encoding.CodePages/4.5.0-rc1": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.0-rc1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.6.26426.4"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.6.26426.4"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HtmlToPdfCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DinkToPdfIncludesDependencies/1.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T3how7gY7vP3dXafpER/mD3HC5azY6dti9J34zSo3EuUG4xm9ZnyWqsD5FLj+8gy9Jy/6hnLcAlMauUJu7qGkQ==",
+      "path": "dinktopdfincludesdependencies/1.0.8",
+      "hashPath": "dinktopdfincludesdependencies.1.0.8.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/4.5.0-rc1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j0BmmvaE6wdQVo0uzFrt4XXAuNcM3F20K36k9VeHq7E/5i3Lx6TPY1DdokD3kwG3bOO3OaMu9ZBGEk6prpcTOA==",
+      "path": "microsoft.win32.registry/4.5.0-rc1",
+      "hashPath": "microsoft.win32.registry.4.5.0-rc1.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/4.5.0-rc1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BtWdrDgn1cnGAVg07H39HQCYMM73vGB+oD4YG1ZfogVb31WLRfUCSpmuaGEIFQ3KiKe7n6Mehh5N3gcnuxYv6Q==",
+      "path": "microsoft.win32.systemevents/4.5.0-rc1",
+      "hashPath": "microsoft.win32.systemevents.4.5.0-rc1.nupkg.sha512"
+    },
+    "Select.Pdf.NetCore/18.2.0-rc1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kwhnbrUFHIjU3Z9PnTo99NJSKIa+rFYHy41I6Wyq2LbHhnpLVwKiirtvYWP15g+V1JL4YHd3g+kmR5hjfP/1Zg==",
+      "path": "select.pdf.netcore/18.2.0-rc1",
+      "hashPath": "select.pdf.netcore.18.2.0-rc1.nupkg.sha512"
+    },
+    "System.Drawing.Common/4.5.0-rc1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G7UU+j2Le7+LomBKCs8tYU8UHo2FKFcsiet92YhtK9/nU0tArYHQGvMSpWG+xZD/lvCX/dPgc3M6D4SnJifnFg==",
+      "path": "system.drawing.common/4.5.0-rc1",
+      "hashPath": "system.drawing.common.4.5.0-rc1.nupkg.sha512"
+    },
+    "System.Memory/4.5.0-rc1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AgFS/k74Hmw3T+gicCxj+e/YLvo2YYpAXsVXq+4C3g6xxWENxLM3ibdD5KrZwixZ0X36RLKtmmcx8tL6O7C+iQ==",
+      "path": "system.memory/4.5.0-rc1",
+      "hashPath": "system.memory.4.5.0-rc1.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.0-rc1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-d1OzBivBnuCRYPrRWkzkafwTwAQBEGyKYjX9HwFhT+YOWun77AyAMIS++UsLq0z0j1HfHx8iI5ZAt8+kXwfnFw==",
+      "path": "system.runtime.compilerservices.unsafe/4.5.0-rc1",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.5.0-rc1.nupkg.sha512"
+    },
+    "System.Security.AccessControl/4.5.0-rc1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bbmS09dlSaVCXUG1kyo7rHLnsoG9G0L8YPyt3mDKAAdetsXLb0Lx2zeTGCAymVi28voi4f+s4oUWuSE5KjyDVA==",
+      "path": "system.security.accesscontrol/4.5.0-rc1",
+      "hashPath": "system.security.accesscontrol.4.5.0-rc1.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Cng/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3d/d+7sdNpfYfqJFzuE/o6Pl/reaMbH7rlUMNvtm4+XVYHY32tdFa45yjB3vhb6q0YY+IV8GUuiBPRsBFP3yaw==",
+      "path": "system.security.cryptography.cng/4.4.0",
+      "hashPath": "system.security.cryptography.cng.4.4.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Pkcs/4.5.0-rc1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B94C7flTUrPLFCIn9QRZVySUiKzzQS9hLT3RDu+WDvNStCDXKRT/tpauxD4/GqVXXhaf2u9Q9TJ+Y34rw+LxZw==",
+      "path": "system.security.cryptography.pkcs/4.5.0-rc1",
+      "hashPath": "system.security.cryptography.pkcs.4.5.0-rc1.nupkg.sha512"
+    },
+    "System.Security.Permissions/4.5.0-rc1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jUT+xmY7pEUA8XermhhPAY1BHq95i1e4jCwwPiVdTe98FasuMhPEbOaYas+O2iiU6pmHcU5+Be9i70lvbfZHqg==",
+      "path": "system.security.permissions/4.5.0-rc1",
+      "hashPath": "system.security.permissions.4.5.0-rc1.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/4.5.0-rc1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BKdXbmb7VTmFKsr7k4HSphxFhqwGP7d9RPJL9GW72SFENWFafIoS+hvEDh5VB0uCYY1f1v/UwcE3Yay0fjMZQA==",
+      "path": "system.security.principal.windows/4.5.0-rc1",
+      "hashPath": "system.security.principal.windows.4.5.0-rc1.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/4.5.0-rc1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-odoLDvACxh/FlanlhcKuXhBsDqS/rWUxu4g7AK73N7FAfcF94o3UGv4tkuavvKE3YUhe8GyU+pwjrVzOaVm3Gw==",
+      "path": "system.text.encoding.codepages/4.5.0-rc1",
+      "hashPath": "system.text.encoding.codepages.4.5.0-rc1.nupkg.sha512"
+    }
+  }
+}

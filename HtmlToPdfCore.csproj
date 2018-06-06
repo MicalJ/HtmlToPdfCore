@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Fonts\**" />
+    <Compile Remove="pdflibs\**" />
+    <EmbeddedResource Remove="Fonts\**" />
+    <EmbeddedResource Remove="pdflibs\**" />
+    <None Remove="Fonts\**" />
+    <None Remove="pdflibs\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Templates\template.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Templates\template.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DinkToPdfIncludesDependencies" Version="1.0.8" />
+    <PackageReference Include="Select.Pdf.NetCore" Version="18.2.0-rc1" />
+  </ItemGroup>
+
+</Project>
